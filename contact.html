@@ -11,9 +11,9 @@
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">The YAY Company</a>
+              <a class="navbar-brand" href="index.html">The YAY Company</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -40,41 +40,53 @@
           <main>
             <div class="container">
                 <div class="row">
-                  <div class="col">
-                    <div><i class="fas fa-envelope"></i></div>
-                    <div><i class="fas fa-phone"></i></div>
-                    <div><i class="fas fa-map-marker-alt"></i></div>
-                  </div>
-                  <div class="col">
-                    <div>hello@yay.com</div>
-                    <div>123 456 7890</div>
-                    <div>123 Some Street<br>Somewhere<br>Some City<br>1000<br></div>
-                  </div>
+
                 </div>
               </div>
 
-              <div class="container form">
-                  <label for="name" class="form-label">Name</label>
-                  <div class="input-group mb-3">
-                    <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md order-md-2">
+                    <div><i class="fas fa-envelope"></i>hello@yay.com</div>
+                    <div><i class="fas fa-phone"></i>123 456 7890</div>
+                    <div><i class="fas fa-map-marker-alt"></i>123 Some Street<br>Somewhere<br>Some City<br>1000<br></div>
                   </div>
-                  
-                  <label for="email" class="form-label">Email</label>
-                  <div class="input-group mb-3">
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+
+                  <div class="col-md order-md-1">
+                    <form>
+                      <label for="name" class="form-label">Name</label>
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Name" aria-label="Name">
+                      </div>
+                      
+                      <label for="email" class="form-label">Email</label>
+                      <div class="input-group mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+                      </div>
+                      
+                      <label for="basic-url" class="form-label">Website</label>
+                      <div class="input-group mb-3">
+                        <span class="input-group-text" id="basic-addon3">https://</span>
+                        <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+                      </div>
+                      
+                      <label for="message" class="form-label">Message</label>
+                      <div class="input-group">
+                        <textarea class="form-control" aria-label="With textarea"></textarea>
+                      </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                          <label class="form-check-label" for="flexCheckChecked">
+                            Allow us to sell your personal details to whomever we want
+                          </label>
+                        </div>
+                        <div class="d-grid">
+                          <button class="btn btn-primary" type="button">Button</button>
+                        </div>
+                    </form>
+                    </div>
                   </div>
-                  
-                  <label for="basic-url" class="form-label">Website</label>
-                  <div class="input-group mb-3">
-                    <span class="input-group-text" id="basic-addon3">https://</span>
-                    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
-                  </div>
-                  
-                  <label for="message" class="form-label">Message</label>
-                  <div class="input-group">
-                    <textarea class="form-control" aria-label="With textarea"></textarea>
-                  </div>
-              </div>
+                </div>
           </main>
 
 
