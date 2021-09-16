@@ -5,6 +5,15 @@ html, body {
 body {
     background-image: radial-gradient(circle at center, #FFFFFF,#EEEEEE, #E5E5E5);
     font-family: 'Lato', sans-serif;
+    color: $secondary;
     display: flex;
     flex-direction: column;
 }
+
+footer {
+    flex-shrink: 0;
+}
+.wrapper {
+    flex: 1 0 auto;
+}
+
