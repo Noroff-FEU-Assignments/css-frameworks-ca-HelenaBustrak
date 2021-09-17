@@ -1,10 +1,16 @@
+
+
+
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
     padding: 0.5rem 1.5rem;
 }
 
+
+
 .tab-content {
     box-shadow: 0 16px 22px rgba(0, 0, 0, 0.060);
+    border-radius: 0 10px 10px 10px;
     background-color: white;
 
     &__socials {
@@ -15,11 +21,14 @@
             padding: 0 0.5rem;
         }
     }
+
+    &__images img {
+        border: transparent;
+    }
 }
 
 .tab-content .container {
     padding: 2.5rem 5rem;
 
 }
-
 

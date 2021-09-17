@@ -11272,7 +11272,7 @@ h1, .h1 {
   padding: 3px 15px;
 }
 
-.active {
+.navbar-light .active {
   background-color: white;
 }
 
@@ -11310,6 +11310,7 @@ h1, .h1 {
 .tab-content {
   -webkit-box-shadow: 0 16px 22px rgba(0, 0, 0, 0.06);
           box-shadow: 0 16px 22px rgba(0, 0, 0, 0.06);
+  border-radius: 0 10px 10px 10px;
   background-color: white;
 }
 
@@ -11322,6 +11323,10 @@ h1, .h1 {
 
 .tab-content__socials i {
   padding: 0 0.5rem;
+}
+
+.tab-content__images img {
+  border: transparent;
 }
 
 .tab-content .container {
