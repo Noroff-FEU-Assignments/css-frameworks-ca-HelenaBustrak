@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-image: radial-gradient(circle at center, #FFFFFF,#EEEEEE, #E5E5E5);
+    font-family: 'Lato', sans-serif;
+    color: $secondary;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    margin-top: 200px;
+    padding: 0.5rem 0;
+    background-color: white;
+
+    &__icons {
+        font-size: 2em;
+        text-align: center;
+        align-self: center;
+        @include media-breakpoint-up(lg) {
+            text-align: start;
+        }
+
+    }
+
+    &__item--email{
+        align-self: center;
+        @include media-breakpoint-up(lg) {
+            text-align: center;
+        }
+    }
+
+    &__item--number {
+        align-self: center;
+        text-align: end;
+    }
+
+
+}
+
+
+
+
+
+

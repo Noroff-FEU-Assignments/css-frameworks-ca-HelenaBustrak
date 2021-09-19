@@ -1,0 +1,39 @@
+.page-link {
+    border: 1px solid $primary;
+}
+
+.card-row {
+    --bs-gutter-y: 2rem;
+
+    .card {
+        border-radius: 12px;
+        border: transparent;
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.050);
+    }
+
+    .card-img-top {
+        border-radius: 12px 12px  0 0;
+    }
+
+    .card-body {
+        padding: 20px;
+    }
+}
+
+.card .btn {
+    width: 100%;
+    color: white;
+    background: linear-gradient(to right, $primary 90%, $grey 10%);
+    border: transparent;
+    margin-bottom: 0.5rem;
+}
+
+.card-title {
+    color: $black;
+}
+
+.pagination {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+

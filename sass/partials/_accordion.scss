@@ -1,0 +1,46 @@
+.accordion {
+    box-shadow: 0 16px 22px rgba(0, 0, 0, 0.060);
+
+    &-item {
+        margin-top: 1px;
+        border: none;
+    }
+
+    button {
+        color: $primary;
+    }
+
+    button:not(.collapsed) {
+        background-color: white;
+        border-bottom: 1px solid $primary;
+    }
+
+    &-button::after {
+        display: none;
+    }
+
+
+}
+
+.accordion-body {
+    background-image: radial-gradient(circle at center, #FFFFFF, #F5F5F5);
+
+    &__socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+
+    &__icon {
+        padding: 0 0.5rem;
+        color: $black;
+    }
+
+    & img {
+        border: none;
+        border-radius: 0px;
+        padding: 0;
+    }
+
+}

@@ -1,0 +1,69 @@
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.160);
+
+    &-brand {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-style: italic;
+        color: $primary !important;
+        font-size: 20px;
+        text-transform: none;
+        padding-bottom: 0;
+    }
+}
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: $black;
+    font-size: 16px;
+    padding: 10px 15px;
+
+    @include media-breakpoint-up(lg) {
+        padding: 3px 15px;
+    }
+
+}
+
+.navbar-light .navbar-toggler {
+    color: $grey;
+    border-color: transparent;
+}
+
+.navbar-light .active {
+    background-color: white;
+    width: 100%;
+    border-radius: 3px;
+
+}
+
+.nav-search {
+    margin-bottom: 1.5rem;
+
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+    }
+    .form-control {
+        margin-right: 0 !important;
+        border: none;
+        border-radius: .25rem 0 0 .25rem;
+    }
+
+    .btn-outline-success {
+        color: white;
+        background-color: $primary;
+        border: none;
+        border-radius: 0 .25rem .25rem 0 ;
+    }
+    
+}
+
+.navbar-nav {
+    margin-top: 1.5rem;
+
+    @include media-breakpoint-up(lg){
+        margin-top: 1rem;
+    }
+}
