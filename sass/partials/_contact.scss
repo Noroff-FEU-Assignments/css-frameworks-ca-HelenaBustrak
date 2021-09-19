@@ -1,0 +1,70 @@
+.contact-info {
+    margin-top: 2rem;
+
+    &__item {
+        display: flex;
+        margin: 2rem 0;
+    }
+
+    &__icon {
+        margin-right: 2rem;
+        font-size: 1.5em;
+    }
+
+    @include media-breakpoint-up(lg) {
+        margin-top: 7rem;
+        margin-left: 3rem;
+    }
+}
+
+.contact-form {
+    background: #EFEFEF;
+    padding: 1.7rem;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.040);
+
+    label {
+        font-size: 20px;
+    }
+
+    .form-control {
+        border: transparent;
+        padding: 12px;
+    }
+
+    .input-group-text {
+        color: white;
+        background-color: #C7C7C7;
+
+    }
+
+    .btn {
+        background-color: $grey;
+        border: transparent;
+        padding: 12px;
+        color: white;
+    }
+}
+
+.form-check {
+    margin: 1rem 0;
+    padding-bottom: 0;
+
+    &-label {
+        font-size: 16px;
+        margin-left: 1rem;
+    }
+
+    &-input {
+        width: 1.5em;
+        height: 1.5em;
+
+    }
+
+    &-input:checked[type="checkbox"] {
+        background-image: none;
+    }
+
+}
+
+
+

@@ -1,24 +1,69 @@
-.navbar-brand {
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-    font-style: italic;
-    color: $primary !important;
-    font-size: 20px;
-    text-transform: none;
-    margin: 0 2.5rem 0 4rem;
-}
 
 .navbar {
-    color: $black;
-    padding: 1rem 0;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    &-brand {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        font-style: italic;
+        color: $primary !important;
+        font-size: 20px;
+        text-transform: none;
+        padding-bottom: 0;
+    }
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: $black;
     font-size: 16px;
-    padding: 3px 15px
+    padding: 10px 15px;
+
+    @include media-breakpoint-up(lg) {
+        padding: 3px 15px;
+    }
+
+}
+
+.navbar-light .navbar-toggler {
+    color: $grey;
+    border-color: transparent;
 }
 
 .navbar-light .active {
     background-color: white;
+    width: 100%;
+    border-radius: 3px;
+
+}
+
+.nav-search {
+
+    .form-control {
+        margin-right: 0 !important;
+        border: none;
+        border-radius: .25rem 0 0 .25rem;
+    }
+
+    .btn-outline-success {
+        color: white;
+        background-color: $primary;
+        border: none;
+        border-radius: 0 .25rem .25rem 0 ;
+    }
+    
+}
+
+.navbar-nav {
+    margin-top: 1.5rem;
+
+    @include media-breakpoint-up(lg){
+        margin-top: 1rem;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .navbar-collapse {
+        padding-bottom: 1.5rem;
+    }
 }
