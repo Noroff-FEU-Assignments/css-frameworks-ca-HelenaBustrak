@@ -1,6 +1,7 @@
 
 .navbar {
     background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.160);
 
     &-brand {
         font-family: 'Playfair Display', serif;
@@ -12,6 +13,8 @@
         padding-bottom: 0;
     }
 }
+
+
 
 .navbar-light .navbar-nav .nav-link {
     color: $black;
@@ -37,7 +40,11 @@
 }
 
 .nav-search {
+    margin-bottom: 1.5rem;
 
+    @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+    }
     .form-control {
         margin-right: 0 !important;
         border: none;
@@ -58,12 +65,5 @@
 
     @include media-breakpoint-up(lg){
         margin-top: 1rem;
-    }
-}
-
-
-@media (max-width: 992px) {
-    .navbar-collapse {
-        padding-bottom: 1.5rem;
     }
 }
