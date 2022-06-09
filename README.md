@@ -1,36 +1,54 @@
-# CSS Frameworks Course Assignment
+# Your project title
 
-## Brief
+![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-From the supplied design, use Bootstrap or React Bootstrap to create a responsive website.
+This project is a Course Assignment in CSS frameworks from Noroff - school of technology and design, in which I was tasked with creating a responsive website using Bootstrap. 
 
-## Level 1 Process
+## Description
 
-- You may use React or regular HTML, JavaScript and Sass.
-- You may use Bootstrap or React Bootstrap.
-- Use one of Sass, CSS Modules or Styled Components to style the project.
-- You can use Font Awesome or another icon library for the icons.
-- The fonts in the design are Google fonts.
+The Course assignment contained an XD-file in which I was presented with the design of the website I was going to re-create. To recreate this website design I used Bootstrap and Sass.
 
-## Level 2 Process
 
-- If you use Sass, use BEM to create your class names.
+## Built With
 
-## Resources
+- [Bootstrap](https://getbootstrap.com)
+- [Sass](https://sass-lang.com/)
 
-The design and additional files can be found in this repo.
+## Getting Started
 
-## Marking Criteria
+### Installing
 
-- The site should match the design as closely as possible and should be responsive across all device sizes.
-- If your project uses Sass, the files should be appropriately named and arranged in partials.
-- If your project uses React, your components should be appropriately named and arranged.
+1. Clone the repo:
 
-## Submission
+```bash
+git clone git@github.com:Noroff-FEU-Assignments/css-frameworks-ca-HelenaBustrak.git
+```
 
-- When you accepted this submission, a repository was created for you. Use this repository for your code and submit a link to this repo when you deliver.
-- Remember to EXCLUDE the node_modules folder if you use React or any npm packages
+2. Install the dependencies:
 
-## Time
+```
+npm install
+```
 
-40 hours
+### Running
+
+To run the app, run the following commands:
+
+```bash
+npm run start
+```
+
+## Contributing
+
+Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
+
+## Contact
+
+This is where you can leave your social links for people to contact you, such as a LinkedIn profile or Twitter link e.g.
+
+[My Twitter page](www.twitter.com)
+
+[My LinkedIn page](www.linkedin.com)
+
+
+
