@@ -1,7 +1,5 @@
 # Your project title
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
-
 This project is a Course Assignment in CSS frameworks from Noroff - school of technology and design, in which I was tasked with creating a responsive website using Bootstrap. 
 
 ## Description
@@ -37,10 +35,6 @@ To run the app, run the following commands:
 ```bash
 npm run start
 ```
-
-## Contributing
-
-Here you can detail any information you want to provide regarding contributing to the project. For big projects you will usually have a separate `CONTRIBUTING.md` and link to it, but for smaller projects you can simply include instructions here. These instructions can simply detail the process you want a person to take, such as to make sure to open a pull request so code can be reviewed.
 
 ## Contact
 
