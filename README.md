@@ -1,4 +1,4 @@
-# CSS Framworks Course Assignment
+# CSS Frameworks Course Assignment
 
 This project is a Course Assignment in CSS frameworks from Noroff - school of technology and design, in which I was tasked with creating a responsive website using Bootstrap. 
 
