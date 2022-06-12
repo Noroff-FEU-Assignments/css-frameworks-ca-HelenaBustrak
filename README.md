@@ -28,10 +28,3 @@ git clone git@github.com:Noroff-FEU-Assignments/css-frameworks-ca-HelenaBustrak.
 npm install
 ```
 
-### Running
-
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
